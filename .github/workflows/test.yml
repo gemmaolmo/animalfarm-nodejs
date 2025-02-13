@@ -2,7 +2,7 @@ name: Animal Farm Node.js CI
 
 on:
   push:
-   branches:
+    branches:
       - main
   pull_request:
     branches:
@@ -10,9 +10,7 @@ on:
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
-
     steps:
     - name: Checkout repository
       uses: actions/checkout@v2
